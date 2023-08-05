@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <Link to="/">Movie App</Link>
+        <Link to="/">
+          <p>Movie App</p>
+        </Link>
       </div>
       <div className="user-image">
         <img
